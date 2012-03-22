@@ -1,1 +1,5 @@
 name: sphinx-demo
+framework:
+  type: buildpack
+env:
+  BUILDPACK_URL: http://github.com/craigkerstiens/heroku-buildpack-sphinx.git
