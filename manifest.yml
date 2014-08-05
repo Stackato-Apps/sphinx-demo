@@ -1,0 +1,8 @@
+applications:
+- name: sphinx-demo
+  framework:
+    name: buildpack
+  stackato:
+    env:
+      BUILDPACK_URL:
+        default: http://github.com/craigkerstiens/heroku-buildpack-sphinx.git
