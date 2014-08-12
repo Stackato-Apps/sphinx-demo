@@ -1,8 +1,7 @@
 applications:
 - name: sphinx-demo
-  framework:
-    name: buildpack
+  buildpack: http://github.com/craigkerstiens/heroku-buildpack-sphinx.git
   stackato:
-    env:
-      BUILDPACK_URL:
-        default: http://github.com/craigkerstiens/heroku-buildpack-sphinx.git
+    hooks:
+      post-staging:
+      - pypm install flask flask-openid
