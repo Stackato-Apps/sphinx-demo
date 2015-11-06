@@ -1,5 +1,5 @@
 #Sphinx Buildpack Demo
 
-## Deploy on Stackato
+## Deploy on HPE Helion Stackato
 
     stackato push -n
